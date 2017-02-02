@@ -85,10 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jactivelte/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/samsung/jactivelte/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/samsung/jactivelte/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/samsung/jactivelte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/jactivelte/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/samsung/jactivelte/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
-    vendor/samsung/jactivelte/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
-    vendor/samsung/jactivelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/jactivelte/proprietary/lib/libril.so:system/lib/libril.so
+    vendor/samsung/jactivelte/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so 
 
