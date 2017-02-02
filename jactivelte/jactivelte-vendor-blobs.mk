@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,6 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/jactivelte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	vendor/samsung/jactivelte/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+	vendor/samsung/jactivelte/proprietary/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
+	vendor/samsung/jactivelte/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
     vendor/samsung/jactivelte/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/jactivelte/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/samsung/jactivelte/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
@@ -68,8 +71,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jactivelte/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
     vendor/samsung/jactivelte/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/samsung/jactivelte/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+	vendor/samsung/jactivelte/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/samsung/jactivelte/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+	vendor/samsung/jactivelte/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/samsung/jactivelte/proprietary/lib/libmercury.so:system/lib/libmercury.so \
+	vendor/samsung/jactivelte/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+	vendor/samsung/jactivelte/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/samsung/jactivelte/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/samsung/jactivelte/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/samsung/jactivelte/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
@@ -85,10 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jactivelte/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/samsung/jactivelte/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/samsung/jactivelte/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/samsung/jactivelte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/jactivelte/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/samsung/jactivelte/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
-    vendor/samsung/jactivelte/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
-    vendor/samsung/jactivelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/jactivelte/proprietary/lib/libril.so:system/lib/libril.so
+    vendor/samsung/jactivelte/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so
 
